@@ -3,7 +3,7 @@ var cors = require("cors");
 const app = express();
 app.use(cors());
 const router = express.Router();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 10000;
 
 //making api using routes. Look like urls
 //GET request to http://localhost:3000/hello
@@ -31,5 +31,5 @@ router.get("/songs", function (req, res) {
 //all request that usually use an api statrt with /api localhost:3000/api/songs
 //blah blahfffffff
 app.use("/api", router);
-app.listen(4000);
+app.listen(10000);
 console.log("listening");
