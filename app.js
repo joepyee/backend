@@ -31,5 +31,6 @@ router.get("/songs", function (req, res) {
 //all request that usually use an api statrt with /api localhost:3000/api/songs
 //blah bl5555ahfffffff
 app.use("/api", router);
-app.listen(10000);
-console.log("listening");
+app.listen(port, () => {
+  console.log(`listening ${port}`);
+});
