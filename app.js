@@ -24,6 +24,13 @@ router.get("/songs", function (req, res) {
       releaseDate: new Date(2013, 11, 21),
       genre: ["soul", "new soul"],
     },
+    {
+      title: "Happy1",
+      artist: "Pharrell Williams1",
+      popularity: 10,
+      releaseDate: new Date(2013, 11, 21),
+      genre: ["soul1", "new soul1"],
+    },
   ];
 
   res.json(songs);
