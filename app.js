@@ -19,7 +19,7 @@ router.get("/songs", function (req, res) {
     },
     {
       title: "Happy",
-      artist: "Pharrell Williams",
+      artist: "Pharrell Williams1",
       popularity: 10,
       releaseDate: new Date(2013, 11, 21),
       genre: ["soul", "new soul"],
